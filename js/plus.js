@@ -33,12 +33,11 @@ btn.addEventListener("click", () => {
   if (firstNum + secondNum === Number(input.value)) {
     span.innerText = "true";
     answerCount++;
-    timer = timer + 3;
     newProduct();
   } else {
     span.innerText = "false";
     input.style.border = "1px solid red";
-    timer = timer - 10;
+    timer = timer - 5;
   }
   input.value = "";
   input.focus();
