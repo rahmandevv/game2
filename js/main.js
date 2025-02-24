@@ -43,5 +43,3 @@ btn.addEventListener("click", () => {
   input.value = "";
   input.focus();
 });
-
-function addProduct() {}
